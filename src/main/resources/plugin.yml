@@ -1,0 +1,43 @@
+name: PhylisStudio
+version: '${project.version}'
+main: fr.soraxdubbing.phylisStudio.PhylisStudio
+api-version: 1.18
+authors: [ SoraxDubbing ]
+description: Plugin pour la création de cinématique dans minecraft
+commands:
+  CreateScene:
+    usage: /createScene
+    permission: phylisstudio.createScene
+    permission-message: Vous n'avez pas la permission de créer une scène
+    description: Crée une scène
+    aliases:
+    - createScene
+    - cs
+  GetScene:
+    usage: /getScene
+    permission: phylisstudio.getScene
+    permission-message: Vous n'avez pas la permission de récupérer les scènes
+    description: Récupère les scènes
+    aliases:
+    - getScene
+    - gs
+  RenderScene:
+    usage: /renderScene
+    permission: phylisstudio.renderScene
+    permission-message: Vous n'avez pas la permission de lancer une scène
+    description: Lance une scène
+    aliases:
+    - renderScene
+    - rs
+    - launchScene
+  AddLocation:
+    usage: /addLocation
+    permission: phylisstudio.addLocation
+    permission-message: Vous n'avez pas la permission d'ajouter un emplacement
+    description: Ajoute un emplacement
+    aliases:
+    - addLocation
+    - al
+    - addLocation
+
+
